@@ -1,0 +1,26 @@
+.banner_image{
+margin-top: 25px;
+border: none;
+}
+
+.card_size{
+	max-height: 300px;
+	max-width: 400px;
+}
+
+.box {
+  background: steelblue;
+  border-radius: 5px;
+  display: inline-block;
+  height: 80px;
+  margin: 20px;
+  width: 80px;
+  
+  .container:hover & {
+    transform: scale(1.4);
+  }
+}
+
+.box1 {
+  transition: all 1.3s;
+}
